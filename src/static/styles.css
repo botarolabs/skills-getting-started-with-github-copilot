@@ -108,6 +108,22 @@ button:hover {
   background-color: #3949ab;
 }
 
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 2px 6px;
+  font-size: 14px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.2s;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
 .message {
   margin-top: 20px;
   padding: 10px;
@@ -141,4 +157,19 @@ footer {
   margin-top: 30px;
   padding: 20px;
   color: #666;
+}
+
+.participants-section {
+  margin-top: 15px;
+}
+
+.participants-section ul {
+  margin: 10px 0 0 20px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.participants-section li {
+  margin-bottom: 5px;
+  color: #555;
 }
